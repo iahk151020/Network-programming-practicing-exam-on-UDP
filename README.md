@@ -3,13 +3,13 @@ Build a client-server system with mordern MVC model about managing Employee
 
 - Giao thức: UDP Socket
 + Server:
-- Chứa thông tin công nhân bao gồm: Họ tên, Năm sinh, Quê quán, giới tính, hệ số lương
-- Dữ liệu lưu trong Hai bảng: CongNhan và QueQuan, trong đó kết nối Quê Quán - Công nhân là N-1 (1 tỉnh có nhiều công nhân).
+  - Chứa thông tin công nhân bao gồm: Họ tên, Năm sinh, Quê quán, giới tính, hệ số lương
+  - Dữ liệu lưu trong Hai bảng: CongNhan và QueQuan, trong đó kết nối Quê Quán - Công nhân là N-1 (1 tỉnh có nhiều công nhân).
 + Client: 
-- Có giao diện để thực hiện chức năng:
-+ Thêm công nhân vào CSDL, trong đó mục Quê Quán phải để người dùng chọn
-+ Tìm kiếm một Công nhân theo tên (gần đúng)
-+ Liệt kê các công nhân thuộc cùng một tỉnh (Đồng hương).
+  - Có giao diện để thực hiện chức năng:
+    * Thêm công nhân vào CSDL, trong đó mục Quê Quán phải để người dùng chọn
+    * Tìm kiếm một Công nhân theo tên (gần đúng)
+    * Liệt kê các công nhân thuộc cùng một tỉnh (Đồng hương).
 Yêu cầu: 
 1.  Xây dựng lớp Congnhan và thiết lập bảng trên CSDL MySQL cho yêu cầu trên
 2. Xây dựng các phương thức của Server và Client để thực hiện các yêu cầu trên
